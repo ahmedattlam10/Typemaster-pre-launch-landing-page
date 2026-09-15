@@ -111,6 +111,7 @@ body {
 }
 
 .hero picture {
+  display: block;
   margin-top: 4rem;
   border-radius: var(--br-pic);
   transform: translateX(1.5rem);
