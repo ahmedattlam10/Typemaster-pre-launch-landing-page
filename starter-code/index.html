@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Typemaster pre-launch landing page</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <img src="assets/shared/logo.svg" alt="typemaster" />
+      <a class="header-link link" href="#">Pre-order now</a>
+    </header>
+
+    <main class="site-main">
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Typemaster keyboard</h1>
+
+          <p class="hero-description">
+            Improve your productivity and gaming without breaking the bank.
+            Upgrade to a high quality mechanical typing experience.
+          </p>
+
+          <div class="hero-preorder">
+            <a class="hero-link link" href="#">Pre-order now</a>
+            <p class="release-date">Release on 5/27</p>
+          </div>
+        </div>
+        <picture>
+          <source
+            media="(min-width: 64rem)"
+            srcset="assets/desktop/image-keyboard.jpg"
+          />
+          <source
+            media="(min-width: 48rem)"
+            srcset="assets/tablet/image-keyboard.jpg"
+          />
+          <img
+            src="assets/mobile/image-keyboard.jpg"
+            alt="Close-up of the Typemaster mechanical keyboard"
+          />
+        </picture>
+      </section>
+      <section class="product-overview">
+        <div class="product-pictures">
+          <picture>
+            <source
+              media="(min-width: 64rem)"
+              srcset="assets/desktop/image-phone-and-keyboard.jpg"
+            />
+            <source
+              media="(min-width: 48rem)"
+              srcset="assets/tablet/image-phone-and-keyboard.jpg"
+            />
+            <img src="assets/mobile/image-phone-and-keyboard.jpg" alt="" />
+          </picture>
+          <picture>
+            <source
+              media="(min-width: 64rem)"
+              srcset="assets/desktop/image-glass-and-keyboard.jpg"
+            />
+            <source
+              media="(min-width: 48rem)"
+              srcset="assets/tablet/image-glass-and-keyboard.jpg"
+            />
+            <img src="assets/mobile/image-glass-and-keyboard.jpg" alt="" />
+          </picture>
+        </div>
+        <div class="product-content">
+          <h2 class="product-title">Mechanical wireless keyboard</h2>
+          <p class="product-description">
+            The Typemaster keyboard boasts top-notch build and practical design.
+            It offers a wide variety of switches and keycaps, along with
+            reliable wireless connectivity.
+          </p>
+        </div>
+      </section>
+
+      <section class="features-container">
+        <article class="feature">
+          <img src="assets/shared/icon-compatible.svg" alt="" />
+          <h2 class="feature-title">Highly compatible</h2>
+          <p class="feature-description">
+            Easy to use and works well with all major computer brands, gaming
+            consoles and mobile devices. Plug & play, no installation or driver
+            needed.
+          </p>
+        </article>
+
+        <article class="feature">
+          <img src="assets/shared/icon-bluetooth.svg" alt="" />
+          <h2 class="feature-title">Wireless with luetooth</h2>
+          <p class="feature-description">
+            Powerful 2.4G RF technology allows you to connect the cordless
+            keyboard from up to 30ft away. Simply plug the unifying receiver
+            into your computer.
+          </p>
+        </article>
+
+        <article class="feature">
+          <img src="assets/shared/icon-battery.svg" alt="" />
+          <h2 class="feature-title">High capacity battery</h2>
+          <p class="feature-description">
+            Equipped with a long-lasting built-in battery, you’ll never have to
+            spend a dime on replaceable ones.  Enjoy 40 hours of usage time
+            between charges.
+          </p>
+        </article>
+
+        <article class="feature">
+          <img src="assets/shared/icon-light.svg" alt="" />
+          <h2 class="feature-title">RGB backlit modes</h2>
+          <p class="feature-description">
+            Choose from 4 backlight brightness levels and adjustable breathing
+            speed. Each key glows intensely in the dark and helps you type in
+            low light conditions.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">Typemaster 2021 | All Rights Reserved</footer>
+  </body>
+</html>
