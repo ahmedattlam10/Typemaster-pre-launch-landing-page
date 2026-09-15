@@ -36,7 +36,7 @@ img {
 }
 
 h1,
-h2 {
+h3 {
   color: var(--dark-blue-clr);
   font-weight: var(--fw-black);
   text-transform: uppercase;
@@ -163,6 +163,18 @@ body {
   padding-inline: 1rem;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .feature:not(:first-child) {
   margin-top: 2.5rem;
 }
@@ -239,7 +251,7 @@ body {
 
 @media (min-width: 64rem) {
   body {
-    padding-inline: 8rem;
+    padding-inline: clamp(2rem, 8vw, 8rem);
     overflow-x: clip;
   }
   .hero picture {
