@@ -36,6 +36,7 @@ img {
 }
 
 h1,
+h2,
 h3 {
   color: var(--dark-blue-clr);
   font-weight: var(--fw-black);
